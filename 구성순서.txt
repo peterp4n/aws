@@ -1,0 +1,45 @@
+
+1. VPC - 네트워크 구성 
+   - 사설망
+   - 이중화
+
+2. ec2
+  - ec2 구성
+  - AMI
+
+3. 로드밸런싱
+  - 로드밸런서
+  - 대상그룹
+
+4. auto scaling
+  - Auto Scaling 그룹
+  - 시작 템플릿
+  - 축소방지
+  - 웜풀
+
+5. route53
+
+6. acm - cf에서 사용할 https 인증서
+       - 버지니아 북부 리전
+
+7. cloud front
+   - http만 접근 - Redirect HTTP to HTTPS
+   - GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE
+   -route53 host
+   
+8. cloudwatch - 
+              - AWS/ApplicationELB => TargetResponseTime
+	      - AWS/ApplicationELB => RequestCountPerTarget
+              - CPU, MEM 
+
+9. iam - shell에서 사용할 계정 추가
+       - AWS CodeCommit
+
+10. s3
+
+11. efs
+    - 엑세스 포인트
+    - 네트워크
+
+
+12. AWS Backup
